@@ -1,0 +1,26 @@
+/* Makes element widths include padding and borders for predictable sizing. */
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+/* Removes the browser's outer page margin so the layout can control page spacing. */
+body {
+  margin: 0;
+}
+
+/* Prevents images from overflowing their containers on narrow screens. */
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Removes the browser's outer page margin so the layout can control page spacing. */
+body {
+  margin: 0;
+}
+
+/* Prevents images from overflowing their containers on narrow screens. */
+img {
+  max-width: 100%;
+  height: auto;
+}
